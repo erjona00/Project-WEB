@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<style>
+    .aboutus{
+        padding: 200 px;
+        text-align:center; 
+        font-family: 'Times New Roman', Times, serif;
+        background: #1abc9c;
+        color: white;
+        height: 300px;
+        vertical-align: bottom; 
+    }
+    .paragraph{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:black;
+    }
+    .happycostumers{
+        text-align: center;
+    }
+    .costumers{
+        text-align: center;
+    }
+    #h{
+        color: crimson;
+    }
+    #back{
+        width: 50px;
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 22px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px 2px rgba(43, 43, 77, 0.5);
+        border-radius: 10px;
+        margin: 20px 9px 20px 9px;
+        background-color:#62a598;
+        color: white;
+        display: flex; 
+    }
+    .footer{
+    width:100%;
+    display:flex;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    background-color:grey;
+}
+
+.footer a{
+color:white;
+text-decoration:none;
+cursor: pointer;
+}
+.footer p:hover{
+transition: all .2s linear;
+transform: translateX(4px);
+}
+.footer a:hover{
+color: #14af81;
+}
+.footer-items{
+margin-right: 1rem;
+}
+.footer-items ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+.footer-items li{
+margin-right: 1rem;
+}
+.footer-items_social ul li{
+font-size:1.2rem;
+cursor: pointer;
+transition: all .2s linear;
+
+}
+
+.footer-items_social ul li:hover{
+color: #14af81;
+transform: scale(1.1);
+transition: all .2s linear;
+}
+
+
+@media screen and(max-width:320px){
+.footer{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+}
+</style>
+<body>
+    <a id="back" href="index.html"> Back </a>
+    <div class="aboutus">
+        <h1> <i> We are more than beauty & grooming. </i></h1>
+    </div>
+    <div class="paragraph">
+        <p> When we started Orphic Beauty, we set out to make the world of beauty and grooming simple.<br>
+            Whot we've learned along the way is that it's about so much more than that.<br>
+            What we made resonated with customers who have felt overlooked by an entire industry because beouty and grooming aren't their top priorities.<br>
+            People with jobs, families, hobbies, passions, and extremely full lives who deserve to have an experience on their terms.<br>
+            Not the overwhelming, exclusive, high-expectation norms of this industry.<br>
+            But more than being simple, we made something personal. We made something you see as a gift to you.</p>
+    </div>
+    <hr>    
+    <div class="happycostumers">
+        <img src="happycostumers.webp" height="200px" width="200px">
+    </div>
+    
+    <div class="costumers">
+        <h4 id="h"> Julia Nathan: </h4>
+        <p> <i>"When I first saw those products from Orphic Beauty, I didn't believe that they're this amazing."</i> </p>
+        <h4 id="h"> Emilia Brown: </h4>
+        <p> <i>"I have no words, those products are just wonderful!" </i></p>
+        <h4 id="h"> Diana Dark: </h4>
+        <p> <i> "Since I started to use Orphic Beauty products my skin is more shiny."</i> </p>
+        <h4 id="h"> Andia Draner: </h4>
+        <p> <i>"Here you can take the best products with the best prices. I recommend it to you."</i> </p>
+    </div>
+
+    <div class="footer">
+        <div class="footer-items">
+            <h2>Company</h2>
+            <p><a href="">Contact Us</a></p>
+            <p><a href="">Our Services</a></p>
+            <p><a href="">Privacy Policy</a></p>
+       
+        </div>
+        
+        <div class="footer-items">
+            <h2>Get Help</h2>
+            <p><a href="">Shipping</a></p>
+            <p><a href="">Returns</a></p>
+            <p><a href="">Payment Options</a></p>
+        </div>
+        <div class="footer-items_social">
+            <h2>Follow Us</h2>
+            <ul>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <li><i class="fa-brands fa-facebook-f"></i><img src="facebook.png" width="30" height="30"></li>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <li><i class="fa-brands fa-twitter"></i><img src="twitter.png" width="30" height="30"></li>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <li><i class="fa-brands fa-instagram"></i><img src="insta.png" width="30" height="30"></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
