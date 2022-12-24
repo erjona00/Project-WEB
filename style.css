@@ -200,7 +200,7 @@ transition: all .2s linear;
 transform: translateX(4px);
 }
 .footer a:hover{
-color: #14af81;
+color: black;
 }
 .footer-items{
 margin-right: 1rem;
