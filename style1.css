@@ -12,10 +12,16 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:whitesmoke;
+    background-color:white;
     background-size: cover;
     background-repeat: no-repeat;
     font-family : Verdana,Tahoma, sans-serif;   
+}
+.logo{
+    display: block;
+    width: 250px;
+    height: 80px;
+    margin: auto;
 }
 .box img{
 	width:100px;
@@ -138,7 +144,7 @@ input[type=checkbox]{
     color: #ffffff;
     font-size: 15px;
 }
-.back{
+#back{
     width: 85px;
     float: left;
     display: block;
