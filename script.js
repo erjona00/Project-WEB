@@ -1,5 +1,5 @@
 var varguImazheve=[
-    'essenceCosmetics.png',
+    'essence.png',
     'maybellineNewYork.png',
     'mac.png',
     'sephora.jpg'
