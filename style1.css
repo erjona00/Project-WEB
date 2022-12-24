@@ -18,10 +18,11 @@ body{
     font-family : Verdana,Tahoma, sans-serif;   
 }
 .logo{
-    display: block;
+    display:flex;
     width: 250px;
     height: 80px;
-    margin: auto;
+    margin: 5px;
+    padding-left: 1074px;
 }
 .box img{
 	width:100px;
