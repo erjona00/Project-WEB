@@ -1,8 +1,8 @@
 var varguImazheve=[
-    'essence.png',
-    'maybellineNewYork.png',
-    'mac.png',
-    'sephora.jpg'
+    '../images/essence.png',
+    '../images/maybellineNewYork.png',
+    '../images/mac.png',
+    '../images/sephora.jpg'
 ];
 
 var index = 0;
